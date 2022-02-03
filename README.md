@@ -1,3 +1,5 @@
+[![CI](https://github.com/Vylantze/hodlnaut-challenge/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/Vylantze/hodlnaut-challenge/actions/workflows/gh-pages.yml)
+
 # Hodlnaut Coding Challenge
 
 Thanks for taking the time to do our coding test!
