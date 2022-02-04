@@ -12,8 +12,12 @@ describe("Test", () => {
 });
 
 describe("Test app", () => {
-  after((done) => {
-    app.close(done);
+  after(() => {
+    try {
+      app.close();
+    } catch (e) {
+      console.log("Encountered error while closing.", e);
+    }
   });
 
   it("Hello World", async () => {
