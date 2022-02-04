@@ -58,7 +58,7 @@ __2. Which took the most time? What did you find most difficult?__
 > Trying to debug why express did not allow for async functions took surprising amount of time. I found it most difficult to choose which of the parameters and apis to use for the conversion, since I had no experience in cryptocurrency. But, once I figured it out, it was so simple that I wonder why I took so long. I also took a surprisingly long time to set up the CI that I intended to have running.
 
 __3. If we wanted the balance to update on the frontend more often (10 times per second), how would you improve the current system to handle this?__
-> I believe that the api is simple enough to be able to be called 10 times per second with no issue. 
+> I believe that the api is simple enough to be able to be called 10 times per second with no issue. However, I would need to update the api to instead fetch the current tick for the balance instead of the hourly tick. The hourly tick is used now to ensure that the automated tests won't have false negatives as much as possible. 
 
 __4. How did you find the test overall? If you have any suggestions on how we can improve the test, we'd love to hear them!__
-> I think the test is simple and effective enough. 
+> I think the test is simple and effective enough. I think the exact api call to use from bitstamp as well as which parameters are preferred (I used the latest conversion rates and the hourly api).
