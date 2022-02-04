@@ -1,4 +1,4 @@
-[![CI](https://github.com/Vylantze/hodlnaut-challenge/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/Vylantze/hodlnaut-challenge/actions/workflows/gh-pages.yml)
+[![CI](https://github.com/Vylantze/user-crypto-balance/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/Vylantze/user-crypto-balance/actions/workflows/gh-pages.yml)
 
 # Hodlnaut Coding Challenge
 
