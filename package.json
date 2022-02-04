@@ -11,11 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
     "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
     "mocha": "^8.3.2"
   },
-  "type": "module",
-  "devDependencies": {
-    "chai-http": "^4.3.0"
-  }
+  "type": "module"
 }
