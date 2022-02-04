@@ -11,8 +11,12 @@ describe("Test", () => {
   });
 });
 
-describe("Test Hello World", () => {
-  it("Basic Test", async () => {
+describe("Test app", () => {
+  after((done) => {
+    app.close(done);
+  });
+
+  it("Hello World", async () => {
     chai.request(app).get("/").end((err, res) => {
       expect(err).to.equal(null);
       expect(res.status).to.equal(200);

@@ -6,8 +6,15 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+app.get('/user/:userId', (req, res) => {
+  if (!req.params && !req.userId) {
+    throw new Error("No userId provided found")
+  }
+  res.send('Hello World!')
 })
 
-export default app;
+let server = app.listen(port, () => {
+  console.log(`app listening at http://localhost:${port}`)
+})
+
+export default server;
