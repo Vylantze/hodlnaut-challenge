@@ -52,13 +52,13 @@ const userBalances = {
 
 ## Questions
 __1. (Optional) If you didn’t have time to complete your intended design, what else would you have done?__
-> ANSWER
+> NIL
 
 __2. Which took the most time? What did you find most difficult?__
-> ANSWER
+> Trying to debug why express did not allow for async functions took surprising amount of time. I found it most difficult to choose which of the parameters and apis to use for the conversion, since I had no experience in cryptocurrency. But, once I figured it out, it was so simple that I wonder why I took so long. I also took a surprisingly long time to set up the CI that I intended to have running.
 
 __3. If we wanted the balance to update on the frontend more often (10 times per second), how would you improve the current system to handle this?__
-> ANSWER
+> I believe that the api is simple enough to be able to be called 10 times per second with no issue. 
 
 __4. How did you find the test overall? If you have any suggestions on how we can improve the test, we'd love to hear them!__
-> ANSWER
+> I think the test is simple and effective enough. 
